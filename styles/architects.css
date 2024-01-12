@@ -138,6 +138,18 @@ main {
     font-weight: 400;
 }
 
+.facts-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.facts-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    width: 542px;
+}
 
 /* responsive media quaries */
 
@@ -146,16 +158,19 @@ main {
         padding: 20px;
     }
 
-    nav, .teams-container{
+    nav,
+    .teams-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
-       
+
     }
-    .teams-img-container{
+
+    .teams-img-container {
         grid-template-columns: 1fr;
     }
+
     .teams-content {
         padding-right: 20px;
         padding-left: 20px;
@@ -168,7 +183,8 @@ main {
         padding: 50px;
     }
 
-    nav, .teams-container {
+    nav,
+    .teams-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
